@@ -105,7 +105,7 @@ export default function PhotoGallery() {
                                 className="w-full h-full object-cover"
                             />
                             <div className="absolute inset-0 flex items-center justify-center bg-black/50">
-                                <span className="text-white text-2xl font-semibold">
+                                <span className="text-white sm:text-2xl text-lg font-semibold">
                                     +{images.length - 2} photos
                                 </span>
                             </div>

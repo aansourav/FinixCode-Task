@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ChangeEvent, useRef, useState } from "react";
 import CalendarIcon from "../../public/assets/calendar.png";
 import UserIcon from "../../public/assets/ix_user-profile-filled.png";
-import LeaderboardIcon from "../../public/assets/Jithbo icon.png";
+import LeaderboardIcon from "../../public/assets/LeaderboardIcon.png";
 import Logo from "../../public/assets/navLogo.png";
 import SearchIcon from "../../public/assets/Search.png";
 

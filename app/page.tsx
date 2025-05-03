@@ -7,12 +7,18 @@ export default function Home() {
     return (
         <>
             <div className="min-h-screen">
-                <Navbar />
+                <div className="px-4 sm:px-0">
+                    <Navbar />
+                </div>
                 <div className="bg-light-yellow">
-                    <PhotoGallery />
+                    <div className="px-4 sm:px-0">
+                        <PhotoGallery />
+                    </div>
                     <EventDetails />
                 </div>
-                <EventsCarousel />
+                <div className="px-4 sm:px-0">
+                    <EventsCarousel />
+                </div>
             </div>
         </>
     );
