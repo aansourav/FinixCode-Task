@@ -3,11 +3,11 @@
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import { ChangeEvent, useRef, useState } from "react";
-import calendarImg from "../../public/assets/calendar.png";
-import userImage from "../../public/assets/ix_user-profile-filled.png";
-import leaderboardImg from "../../public/assets/Jithbo icon.png";
-import navLogo from "../../public/assets/navLogo.png";
-import searchImg from "../../public/assets/Search.png";
+import CalendarIcon from "../../public/assets/calendar.png";
+import UserIcon from "../../public/assets/ix_user-profile-filled.png";
+import LeaderboardIcon from "../../public/assets/Jithbo icon.png";
+import Logo from "../../public/assets/navLogo.png";
+import SearchIcon from "../../public/assets/Search.png";
 
 export default function Navbar() {
     const [searchQuery, setSearchQuery] = useState("");
@@ -45,11 +45,7 @@ export default function Navbar() {
         <nav className="w-full bg-white py-3 md:px-4 max-w-[1360px] mx-auto px-0">
             <div className="flex items-center justify-between">
                 <div className="flex items-center">
-                    <Image
-                        src={navLogo}
-                        alt="Navbar Logo"
-                        className="h-10 w-8"
-                    />
+                    <Image src={Logo} alt="Navbar Logo" className="h-10 w-8" />
                 </div>
 
                 <div className="hidden md:flex items-center gap-2 flex-grow justify-center max-w-xl">
@@ -73,7 +69,7 @@ export default function Navbar() {
                             </span>
                             <div className="bg-jithbo-green rounded-full p-1">
                                 <Image
-                                    src={calendarImg}
+                                    src={CalendarIcon}
                                     alt="Calendar"
                                     className="w-5 h-5"
                                 />
@@ -93,7 +89,7 @@ export default function Navbar() {
                             <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
                                 <div className="bg-[#E5E5E5] p-1 rounded-full">
                                     <Image
-                                        src={searchImg}
+                                        src={SearchIcon}
                                         alt="Search"
                                         className="w-5 h-5"
                                     />
@@ -107,7 +103,7 @@ export default function Navbar() {
                     <div className="hidden lg:flex items-center">
                         <button className="flex items-center gap-2 px-4 py-2 rounded-full bg-light-yellow hover:bg-yellow-50 cursor-pointer transition-colors">
                             <Image
-                                src={leaderboardImg}
+                                src={LeaderboardIcon}
                                 alt="Leaderboard"
                                 className="w-5 h-5"
                             />
@@ -141,7 +137,7 @@ export default function Navbar() {
                         </button>
                         <button className="p-1 rounded-full size-9">
                             <Image
-                                src={userImage}
+                                src={UserIcon}
                                 alt="User"
                                 className="w-full h-full"
                             />
@@ -164,7 +160,7 @@ export default function Navbar() {
                             <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
                                 <div className="bg-[#E5E5E5] p-1 rounded-full">
                                     <Image
-                                        src={searchImg}
+                                        src={SearchIcon}
                                         alt="Search"
                                         className="w-5 h-5"
                                     />
@@ -190,7 +186,7 @@ export default function Navbar() {
                                 </span>
                                 <div className="bg-jithbo-green rounded-full p-1">
                                     <Image
-                                        src={calendarImg}
+                                        src={CalendarIcon}
                                         alt="Calendar"
                                         className="w-5 h-5"
                                     />
@@ -200,7 +196,7 @@ export default function Navbar() {
 
                         <button className="flex items-center gap-2 px-4 py-2 rounded-full bg-light-yellow hover:bg-yellow-50 cursor-pointer transition-colors">
                             <Image
-                                src={leaderboardImg}
+                                src={LeaderboardIcon}
                                 alt="Leaderboard"
                                 className="w-5 h-5"
                             />

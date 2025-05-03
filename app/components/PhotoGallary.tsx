@@ -98,15 +98,17 @@ export default function PhotoGallery() {
                         className="h-1/2 relative cursor-pointer rounded-2xl overflow-hidden"
                         onClick={() => openModal(2)}
                     >
-                        <Image
-                            src={images[2].src}
-                            alt={images[2].alt}
-                            className="w-full h-full object-cover"
-                        />
-                        <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
-                            <span className="text-white text-2xl font-semibold">
-                                +{images.length - 2} photos
-                            </span>
+                        <div className="relative w-full h-full">
+                            <Image
+                                src={images[2].src}
+                                alt={images[2].alt}
+                                className="w-full h-full object-cover"
+                            />
+                            <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+                                <span className="text-white text-2xl font-semibold">
+                                    +{images.length - 2} photos
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
