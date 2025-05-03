@@ -2,8 +2,8 @@
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
-import img2 from "../../public/assets/Date drop-down box (1).png";
-import img1 from "../../public/assets/Date drop-down box.png";
+import CarouselImage1 from "../../public/assets/CarouselImage1.png";
+import CarouselImage2 from "../../public/assets/CarouselImage2.png";
 import EventCard from "./EventCard";
 
 const EventsCarousel = () => {
@@ -15,7 +15,7 @@ const EventsCarousel = () => {
         {
             id: 1,
             title: "Legends Rise on the Field",
-            image: img1.src,
+            image: CarouselImage2.src,
             date: "Thu, Dec 5",
             time: "12:30AM - 12:30PM",
             location: "Bashundhara Sports Complex",
@@ -27,7 +27,7 @@ const EventsCarousel = () => {
         {
             id: 2,
             title: "Chasing Glory: Football Showdown",
-            image: img2.src,
+            image: CarouselImage1.src,
             date: "Thu, Dec 5",
             time: "12:30AM - 12:30PM",
             location: "Bashundhara Sports Complex",
@@ -39,7 +39,7 @@ const EventsCarousel = () => {
         {
             id: 3,
             title: "United We Play, United Win",
-            image: img1.src,
+            image: CarouselImage2.src,
             date: "Thu, Dec 5",
             time: "12:30AM - 12:30PM",
             location: "Bashundhara Sports Complex",
@@ -51,7 +51,7 @@ const EventsCarousel = () => {
         {
             id: 4,
             title: "Football Champions League",
-            image: img2.src,
+            image: CarouselImage1.src,
             date: "Fri, Dec 6",
             time: "12:30AM - 12:30PM",
             location: "Bashundhara Sports Complex",
@@ -63,7 +63,7 @@ const EventsCarousel = () => {
         {
             id: 5,
             title: "Weekend Football Tournament",
-            image: img1.src,
+            image: CarouselImage2.src,
             date: "Sat, Dec 7",
             time: "12:30AM - 12:30PM",
             location: "Bashundhara Sports Complex",

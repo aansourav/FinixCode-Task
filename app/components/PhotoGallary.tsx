@@ -4,22 +4,22 @@
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import photo1 from "../../public/assets/Football Image silder.png";
+import CoverImage from "../../public/assets/FootballCoverImage.png";
 
 export default function PhotoGallery() {
     const images = [
         {
             id: 1,
-            src: photo1,
+            src: CoverImage,
             alt: "Soccer field at night under floodlights",
         },
         {
             id: 2,
-            src: photo1,
+            src: CoverImage,
             alt: "Players on field from distance",
         },
-        { id: 3, src: photo1, alt: "Night game aerial view" },
-        { id: 4, src: photo1, alt: "Team celebration" },
+        { id: 3, src: CoverImage, alt: "Night game aerial view" },
+        { id: 4, src: CoverImage, alt: "Team celebration" },
     ];
 
     const [modalOpen, setModalOpen] = useState(false);

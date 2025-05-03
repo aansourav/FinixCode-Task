@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sports Event Platform - Assignment Task
+
+This project is an implementation of a sports event management platform developed as an assignment task. Built with Next.js, React, and Tailwind CSS, the application enables users to browse sports events, view event details, join activities, and interact with other participants.
+
+## Features
+
+-   **Event Discovery**: Browse through upcoming events with detailed information
+-   **Interactive UI**: Modern, responsive interface with photo galleries and carousels
+-   **Event Details**: View comprehensive information about events including location, time, and participants
+-   **Player Management**: See who's joining events and manage your participation
+-   **Payment Integration**: Seamless payment flow for joining events
+-   **Social Features**: Chat with other participants and share events
+
+## Tech Stack
+
+-   **Framework**: Next.js 15.3
+-   **UI Library**: React 19
+-   **Styling**: Tailwind CSS 4
+-   **Icons**: Lucide React
+-   **Language**: TypeScript
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+-   Node.js 18.0 or later
+-   Yarn package manager (recommended) or npm
+
+### Installation
 
 ```bash
-npm run dev
-# or
+# Clone the repository
+git clone [repository-url]
+cd finix-code
+
+# Install dependencies
+yarn install
+```
+
+### Development
+
+```bash
+# Start the development server with Turbopack
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Create a production build
+yarn build
 
-## Learn More
+# Start the production server
+yarn start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   `app/` - Main application code (Next.js App Router)
+    -   `components/` - Reusable UI components
+    -   `page.tsx` - Home page component
+    -   `layout.tsx` - Root layout component
+-   `public/` - Static assets
+-   `tailwind.config.js` - Tailwind CSS configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Acknowledgements
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-   Next.js team for the amazing framework
+-   Tailwind CSS for the utility-first CSS framework
+-   Lucide for the beautiful icons
