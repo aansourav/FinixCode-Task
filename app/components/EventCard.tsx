@@ -33,6 +33,8 @@ const EventCard = ({
                     src={image}
                     alt={title}
                     className="w-full h-[116px] object-cover"
+                    width={300}
+                    height={200}
                 />
             </div>
             <div className="p-4">
@@ -55,6 +57,8 @@ const EventCard = ({
                             className="size-5 mr-[6px]"
                             src={difficultyIcon}
                             alt="Difficulty Icon"
+                            width={300}
+                            height={200}
                         />
                         <span className="text-xs font-normal text-[#4A4A4A] leading-[20px] tracking-[0%]">
                             Advanced
@@ -77,6 +81,8 @@ const EventCard = ({
                         className="size-[17.5px] mr-[5px]"
                         src={mapPin}
                         alt="Map Pin"
+                        width={300}
+                        height={200}
                     />
                     <span>{location}</span>
                 </div>
@@ -97,6 +103,8 @@ const EventCard = ({
                                     className="size-[22px] mr-[2px]"
                                     src={takaIcon}
                                     alt="Taka Icon"
+                                    width={300}
+                                    height={200}
                                 />
                                 <span className="font-normal text-2xl text-[#171717] leading-[100%] tracking-[0%]">
                                     {price}

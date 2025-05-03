@@ -15,7 +15,7 @@ const EventsCarousel = () => {
         {
             id: 1,
             title: "Legends Rise on the Field",
-            image: img1,
+            image: img1.src,
             date: "Thu, Dec 5",
             time: "12:30AM - 12:30PM",
             location: "Bashundhara Sports Complex",
@@ -27,7 +27,7 @@ const EventsCarousel = () => {
         {
             id: 2,
             title: "Chasing Glory: Football Showdown",
-            image: img2,
+            image: img2.src,
             date: "Thu, Dec 5",
             time: "12:30AM - 12:30PM",
             location: "Bashundhara Sports Complex",
@@ -39,7 +39,7 @@ const EventsCarousel = () => {
         {
             id: 3,
             title: "United We Play, United Win",
-            image: img1,
+            image: img1.src,
             date: "Thu, Dec 5",
             time: "12:30AM - 12:30PM",
             location: "Bashundhara Sports Complex",
@@ -51,7 +51,7 @@ const EventsCarousel = () => {
         {
             id: 4,
             title: "Football Champions League",
-            image: img2,
+            image: img2.src,
             date: "Fri, Dec 6",
             time: "12:30AM - 12:30PM",
             location: "Bashundhara Sports Complex",
@@ -63,7 +63,7 @@ const EventsCarousel = () => {
         {
             id: 5,
             title: "Weekend Football Tournament",
-            image: img1,
+            image: img1.src,
             date: "Sat, Dec 7",
             time: "12:30AM - 12:30PM",
             location: "Bashundhara Sports Complex",
